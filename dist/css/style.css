@@ -70,7 +70,7 @@
 }
 .SampleHeading .heading-description {
   width: 415px;
-  font-size: 14px;
+  font-size: 16px;
 }
 .SampleHeading .heading-button-container {
   display: flex;
@@ -90,11 +90,72 @@
   border-radius: 7px;
   font-family: Helvetica;
   color: #5e696d;
-  font-size: 14px;
+  font-size: 16px;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
 }
 .SampleHeading .heading-button-container .heading-button:hover {
+  background: #11ade0;
+  background-image: -webkit-linear-gradient(top, #11ade0, #0092cb);
+  background-image: -moz-linear-gradient(top, #11ade0, #0092cb);
+  background-image: -ms-linear-gradient(top, #11ade0, #0092cb);
+  background-image: -o-linear-gradient(top, #11ade0, #0092cb);
+  background-image: linear-gradient(to bottom, #11ade0, #0092cb);
+  text-decoration: none;
+  border: 1px solid #0093c6;
+  color: white;
+}
+.Subheading {
+  display: flex;
+  flex-direction: column;
+}
+.Subheading .horizontal {
+  border: 1px solid #e5e5e5;
+  width: 960px;
+  height: 1px;
+  margin: 30px 0;
+}
+.Subheading .subheading-block {
+  display: flex;
+}
+.Subheading .subheading-block .subheading-image {
+  width: 50%;
+}
+.Subheading .subheading-block .subheading-text-block {
+  padding: 0 20px 20px;
+}
+.Subheading .subheading-block .subheading-text-block .subheading-banner {
+  margin: 0;
+}
+.Subheading .subheading-block .subheading-text-block .subheading-banner-first {
+  font-size: 30px;
+}
+.Subheading .subheading-block .subheading-text-block .subheading-banner-second {
+  font-size: 20px;
+}
+.Subheading .subheading-block .subheading-text-block .subheading-text {
+  font-size: 16px;
+  color: #5e696d;
+}
+.Subheading .subheading-block .subheading-text-block .subheading-button {
+  display: inline-block;
+  background: #fefefe;
+  background-image: -webkit-linear-gradient(top, #fefefe, #efefef);
+  background-image: -moz-linear-gradient(top, #fefefe, #efefef);
+  background-image: -ms-linear-gradient(top, #fefefe, #efefef);
+  background-image: -o-linear-gradient(top, #fefefe, #efefef);
+  background-image: linear-gradient(to bottom, #fefefe, #efefef);
+  -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border: 1px solid #cccccc;
+  border-radius: 7px;
+  font-family: Helvetica;
+  color: #5e696d;
+  font-size: 16px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+.Subheading .subheading-block .subheading-text-block .subheading-button:hover {
   background: #11ade0;
   background-image: -webkit-linear-gradient(top, #11ade0, #0092cb);
   background-image: -moz-linear-gradient(top, #11ade0, #0092cb);
