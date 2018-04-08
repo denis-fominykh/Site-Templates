@@ -117,12 +117,16 @@
 }
 .Subheading .subheading-block {
   display: flex;
+  justify-content: space-around;
+}
+.Subheading .subheading-block .subheading-padding {
+  padding-left: 35px;
 }
 .Subheading .subheading-block .subheading-image {
   width: 50%;
 }
 .Subheading .subheading-block .subheading-text-block {
-  padding: 0 20px 20px;
+  width: 50%;
 }
 .Subheading .subheading-block .subheading-text-block .subheading-banner {
   margin: 0;
