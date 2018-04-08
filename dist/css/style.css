@@ -8,7 +8,7 @@
   display: flex;
   padding: 0px;
   color: #5e696d;
-  font-family: Helvetica;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   border-radius: 7px;
   border: 0.5px solid #a7a7a7;
   /* Gradient */
@@ -50,7 +50,7 @@
   width: 100%;
   height: 450px;
   margin: 55px 0;
-  font-family: Helvetica;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   background-color: #f5f5f5;
   border-radius: 1px;
   display: flex;
@@ -165,4 +165,38 @@
   text-decoration: none;
   border: 1px solid #0093c6;
   color: white;
+}
+.SampleIcon .sample-grid {
+  margin: 30px 0;
+  display: flex;
+  justify-content: space-around;
+}
+.SampleIcon .sample-grid .sample-container {
+  width: 33%;
+  height: 123px;
+  margin: 0;
+  display: flex;
+}
+.SampleIcon .sample-grid .sample-container-padding {
+  padding-left: 35px;
+}
+.SampleIcon .sample-grid .sample-container .sample-icon {
+  width: 64px;
+  height: 100%;
+}
+.SampleIcon .sample-grid .sample-container .sample-icon-image {
+  width: 37px;
+  height: 37px;
+}
+.SampleIcon .sample-grid .sample-container .sample-text {
+  padding-left: 35px;
+}
+.SampleIcon .sample-grid .sample-container .sample-text-heading {
+  margin: 0 0 15px 0;
+  font-size: 18px;
+}
+.SampleIcon .sample-grid .sample-container .sample-text-paragraph {
+  margin: 0;
+  color: #5e696d;
+  font-size: 16px;
 }
